@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+
+}
+
+body {
+    min-height: 75vh;
+    background: linear-gradient(135deg, #923993, #50D8D7);
+
+
+}
+
+#cont {
+    width: 40vw;
+    border-radius: 1vw;
+    margin-top: 25vh;
+    margin-left: 31vw;
+
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+#tdl {
+    font-family: 'Merriweather', serif;
+    margin-left: 2vw;
+    padding: 1vw;
+
+}
+
+#tname {
+
+    width: 31vw;
+    height: 4.8vh;
+    margin-bottom: 2vw;
+    margin-left: 2vw;
+    border-radius: 5vw;
+    border: 0.16vw black solid;
+    outline: none;
+    background-color: white;
+    font-size: 1.2vw;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+::placeholder {
+    color: black;
+    font-size: 0.7vw;
+    font-weight: 100;
+}
+
+#bt {
+    color: white;
+    width: 4vw;
+    height: 5vh;
+    border: 0.16vw black solid;
+    border-radius: 2vw;
+    font-weight: 700;
+    outline: none;
+    background-color: #ff5945;
+}
+
+#bt:hover {
+    color: black;
+}
+
+#bt:active {
+    box-shadow: 0 0.2vw #666;
+    transform: translatey(0.1vw);
+
+}
+
+#lcont {
+    margin-top: -2vh;
+    margin-bottom: 4vh;
+    margin-left: 5vw;
+}
+
+ul li {
+
+    font-size: 18px;
+    font-weight: 600;
+    list-style: none;
+    cursor: pointer;
+    padding: 15px;
+    position: relative;
+    text-transform: uppercase;
+    width: 26vw;
+
+}
+
+ul li::before {
+    content: "";
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    background-image: url(unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: -28px;
+}
+
+ul li.ch {
+    color: #555;
+    text-decoration: line-through;
+
+}
+
+ul li.ch::before {
+    background-image: url(checked.png);
+}
+
+ul li span {
+    position: absolute;
+    left: 29.7vw;
+    top: 13px;
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    line-height: 26px;
+    text-align: center;
+    border: 0.15vw black solid;
+    border-radius: 50%;
+}
+
+ul li span:hover {
+    background-color: #ff5945;
+}
