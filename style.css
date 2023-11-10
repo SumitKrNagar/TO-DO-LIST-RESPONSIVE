@@ -97,7 +97,7 @@ ul li {
     position: relative;
     text-transform: uppercase;
     width: 26vw;
-    user-select: none;
+    -webkit-tap-highlight-color: transparent;
 
 }
 
