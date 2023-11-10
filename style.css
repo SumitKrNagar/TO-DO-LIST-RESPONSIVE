@@ -19,6 +19,7 @@ body {
 }
 
 #cont {
+    margin-bottom: 100px;
     width: 40vw;
     border-radius: 1vw;
     background: rgba(255, 255, 255, 0.25);
