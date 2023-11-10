@@ -68,6 +68,7 @@ body {
     font-weight: 700;
     outline: none;
     background-color: #ff5945;
+    
 
 }
 
@@ -188,7 +189,7 @@ ul li span:hover {
         font-size: 14px;
         top: 12px;
         left: 24px;
-        padding: 14px 10px 5px;
+        padding: 14.5px 10px 5px;
 
     }
 
@@ -203,8 +204,8 @@ ul li span:hover {
     ul li span {
         height: 18px;
         width: 18px;
-        line-height: 18px;
-        left: 235px;
+        line-height: 18.5px;
+        left: 233px;
     }
 
 }
